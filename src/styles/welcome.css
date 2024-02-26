@@ -1,0 +1,85 @@
+
+
+.welcome-app-bar {
+    /* background-color: Your desired background color; */
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #901C1E;
+    min-height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .title-container-welcome {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .app-name-welcome {
+    
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .welcome-button-login{
+    background-color: #ffffff;
+        color: #901C1E;
+        border:none;
+        border-radius: 4px;
+        font-weight: bold;
+        /* height: 36px;
+        width: 105px; */
+        padding: 10px 16px;
+        margin-right: 6px;
+        cursor: pointer;
+        vertical-align: top;
+        transition: background-color 0.15s;
+  }
+  
+  .welcome-button-login:hover{
+    background-color: rgb(241, 241, 241);
+}
+.welcome-button-login:active{
+    opacity: 0.8;
+}
+
+.welcome-button-signup{
+  background-color: transparent;
+  border-radius: 4px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  /* height: 36px;
+  width: 105px; */
+  padding: 9px 16px;
+  border-style: solid;
+  vertical-align: top;
+  cursor: pointer;
+  transition: background-color 0.15s,color 0.15s;
+}
+.welcome-button-signup:hover{
+  background-color: #ffffff;
+  color: #901C1E;
+}
+.welcome-button-signup:active{
+  opacity: 0.8;
+}
+
+.btn-container{
+  margin-top: 40px;
+}
+.welcome-buttons button{
+  width: 200px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  
+}

@@ -1,0 +1,61 @@
+/* PostContainer.css */
+
+.post-container {
+    border: 1px solid #ECEBEB;
+    padding: 16px;
+    margin-bottom: 16px;
+    width:400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 8px;
+  }
+  
+  .post-details {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-body {
+    margin-top: 8px;
+    text-align: justify;
+    font-size: 18px;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+  
+  .post-actions button {
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    margin-left: 8px;
+  }
+  
+  /* Add additional styling as needed */
+  .post-category{
+    font-size: 12px;
+    color: #901C1E;
+    font-weight: bold;
+  }
+  .post-author{
+    font-size: 18px;
+  }
